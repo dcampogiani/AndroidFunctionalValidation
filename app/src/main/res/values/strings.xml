@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Android Functional Validation</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
