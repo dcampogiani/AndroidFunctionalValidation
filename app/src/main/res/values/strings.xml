@@ -5,4 +5,5 @@
     <string name="sign_up">Sign Up</string>
     <string name="option" translatable="false">Option</string>
     <string name="option_wrong">At least one field is wrong</string>
+    <string name="either" translatable="false">Either</string>
 </resources>
