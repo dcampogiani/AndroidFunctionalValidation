@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".option.OptionActivity" />
         <activity android:name=".either.EitherActivity" />
+        <activity android:name=".validatedNelString.ValidatedNelStringActivity" />
     </application>
 
 </manifest>
