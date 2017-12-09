@@ -7,6 +7,7 @@ import android.widget.Button
 import com.danielecampogiani.androidfunctionalvalidation.either.EitherActivity
 import com.danielecampogiani.androidfunctionalvalidation.option.OptionActivity
 import com.danielecampogiani.androidfunctionalvalidation.validatedNelString.ValidatedNelStringActivity
+import com.danielecampogiani.androidfunctionalvalidation.validatedNelValidationError.ValidatedNelValidationErrorActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         option_button.bindActivity<OptionActivity>()
         either_button.bindActivity<EitherActivity>()
         validated_nel_string_button.bindActivity<ValidatedNelStringActivity>()
+        validated_nel_validation_error_button.bindActivity<ValidatedNelValidationErrorActivity>()
     }
 
     private inline fun <reified T : AppCompatActivity> Button.bindActivity() {

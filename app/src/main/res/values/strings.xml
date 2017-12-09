@@ -6,5 +6,10 @@
     <string name="option" translatable="false">Option</string>
     <string name="option_wrong">At least one field is wrong</string>
     <string name="either" translatable="false">Either</string>
-    <string name="validated_nel_string">Validated Nel String</string>
+    <string name="validated_nel_string" translatable="false">Validated Nel String</string>
+    <string name="validated_nel_validation_error" translatable="false">Validated Nel ValidationError</string>
+
+    <string name="invalid_mail">Invalid Mail</string>
+    <string name="invalid_phone_number">Invalid Phone Number</string>
+
 </resources>
