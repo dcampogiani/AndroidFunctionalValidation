@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".option.OptionActivity" />
+        <activity android:name=".either.EitherActivity" />
     </application>
 
 </manifest>
