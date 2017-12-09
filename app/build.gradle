@@ -31,6 +31,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'io.kategory:kategory:0.3.11'
+    implementation "android.arch.lifecycle:extensions:1.0.0"
 
 }
 repositories {

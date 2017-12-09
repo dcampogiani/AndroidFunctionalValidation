@@ -3,4 +3,6 @@
     <string name="mail">Mail</string>
     <string name="phone_number">Phone Number</string>
     <string name="sign_up">Sign Up</string>
+    <string name="option" translatable="false">Option</string>
+    <string name="option_wrong">At least one field is wrong</string>
 </resources>
