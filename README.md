@@ -1,6 +1,6 @@
 # Android Functional Validation
 
-Simple form validation using [Kategory](http://kategory.io/)
+Simple form validation using [Arrow](http://arrow-kt.io/)
 
 ## Option - [PR](https://github.com/dcampogiani/AndroidFunctionalValidation/pull/1) - [Doc](http://kategory.io/docs/datatypes/option/)
 Using this data type we can't know which field is wrong.
