@@ -5,9 +5,9 @@ import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import arrow.data.Nel
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.R
-import kategory.Nel
 import kotlinx.android.synthetic.main.activity_input.*
 
 class ValidatedNelStringActivity : AppCompatActivity() {
