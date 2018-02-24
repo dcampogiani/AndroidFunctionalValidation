@@ -3,10 +3,10 @@ package com.danielecampogiani.androidfunctionalvalidation.validatedNelValidation
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import arrow.data.Nel
+import arrow.data.Validated
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.ValidationError
-import kategory.Nel
-import kategory.Validated
 
 class ValidatedNelValidationErrorViewModel : ViewModel() {
 

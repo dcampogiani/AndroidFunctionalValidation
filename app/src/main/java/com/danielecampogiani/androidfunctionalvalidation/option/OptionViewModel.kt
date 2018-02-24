@@ -3,8 +3,8 @@ package com.danielecampogiani.androidfunctionalvalidation.option
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import arrow.core.Option
 import com.danielecampogiani.androidfunctionalvalidation.Data
-import kategory.Option
 
 
 class OptionViewModel : ViewModel() {

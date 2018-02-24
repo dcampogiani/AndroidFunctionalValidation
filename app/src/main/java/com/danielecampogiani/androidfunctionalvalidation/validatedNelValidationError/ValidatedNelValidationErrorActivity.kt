@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.support.design.widget.TextInputLayout
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import arrow.data.Nel
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.R
 import com.danielecampogiani.androidfunctionalvalidation.ValidationError
-import kategory.Nel
 import kotlinx.android.synthetic.main.activity_input.*
 
 class ValidatedNelValidationErrorActivity : AppCompatActivity() {

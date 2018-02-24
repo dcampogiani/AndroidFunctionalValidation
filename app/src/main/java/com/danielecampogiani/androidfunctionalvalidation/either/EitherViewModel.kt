@@ -3,8 +3,8 @@ package com.danielecampogiani.androidfunctionalvalidation.either
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import arrow.core.Either
 import com.danielecampogiani.androidfunctionalvalidation.Data
-import kategory.Either
 
 class EitherViewModel : ViewModel() {
 

@@ -1,9 +1,15 @@
 package com.danielecampogiani.androidfunctionalvalidation.validatedNelString
 
+import arrow.data.Nel
+import arrow.data.Validated
+import arrow.data.applicative
+import arrow.data.ev
+import arrow.data.nel
+import arrow.syntax.validated.invalid
+import arrow.syntax.validated.valid
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.validMail
 import com.danielecampogiani.androidfunctionalvalidation.validNumber
-import kategory.*
 
 fun validateData(mail: String, phoneNumber: String): Validated<Nel<String>, Data> {
 

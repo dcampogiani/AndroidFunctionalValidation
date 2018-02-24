@@ -1,9 +1,13 @@
 package com.danielecampogiani.androidfunctionalvalidation.either
 
+import arrow.core.Either
+import arrow.core.applicative
+import arrow.core.ev
+import arrow.syntax.either.left
+import arrow.syntax.either.right
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.validMail
 import com.danielecampogiani.androidfunctionalvalidation.validNumber
-import kategory.*
 
 fun validateData(mail: String, phoneNumber: String): Either<String, Data> {
 
