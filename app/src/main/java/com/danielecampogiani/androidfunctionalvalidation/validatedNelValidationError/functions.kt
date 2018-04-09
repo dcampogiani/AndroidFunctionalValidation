@@ -1,12 +1,7 @@
 package com.danielecampogiani.androidfunctionalvalidation.validatedNelValidationError
 
-import arrow.data.Nel
-import arrow.data.Validated
-import arrow.data.applicative
-import arrow.data.ev
-import arrow.data.nel
-import arrow.syntax.validated.invalid
-import arrow.syntax.validated.valid
+import arrow.data.*
+
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.ValidationError
 import com.danielecampogiani.androidfunctionalvalidation.validMail
@@ -14,9 +9,9 @@ import com.danielecampogiani.androidfunctionalvalidation.validNumber
 
 fun validateData(mail: String, phoneNumber: String): Validated<Nel<ValidationError>, Data> {
 
-    return Validated.applicative<Nel<ValidationError>>().map2(mail.validatedMail(), phoneNumber.validatedPhoneNumber()) {
+    return Validated.applicative<Nel<ValidationError>>(Nel.semigroup()).map(mail.validatedMail(), phoneNumber.validatedPhoneNumber()) {
         Data(it.a, it.b)
-    }.ev()
+    }.fix()
 
 }
 

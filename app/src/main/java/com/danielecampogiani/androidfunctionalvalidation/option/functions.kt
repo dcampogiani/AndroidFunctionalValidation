@@ -1,10 +1,6 @@
 package com.danielecampogiani.androidfunctionalvalidation.option
 
-import arrow.core.None
-import arrow.core.Option
-import arrow.core.applicative
-import arrow.core.ev
-import arrow.syntax.option.some
+import arrow.core.*
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.validMail
 import com.danielecampogiani.androidfunctionalvalidation.validNumber
@@ -12,9 +8,9 @@ import com.danielecampogiani.androidfunctionalvalidation.validNumber
 
 fun validateData(mail: String, phoneNumber: String): Option<Data> {
 
-    return Option.applicative().map2(mail.optionMail(), phoneNumber.optionPhoneNumber()) {
+    return Option.applicative().map(mail.optionMail(), phoneNumber.optionPhoneNumber()) {
         Data(it.a, it.b)
-    }.ev()
+    }.fix()
 
 }
 
