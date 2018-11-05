@@ -1,6 +1,8 @@
 package com.danielecampogiani.androidfunctionalvalidation.validatedNelValidationError
 
 import arrow.data.*
+import arrow.instances.nonemptylist.semigroup.semigroup
+import arrow.instances.validated.applicative.applicative
 
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.ValidationError

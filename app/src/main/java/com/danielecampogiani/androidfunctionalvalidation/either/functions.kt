@@ -1,6 +1,7 @@
 package com.danielecampogiani.androidfunctionalvalidation.either
 
 import arrow.core.*
+import arrow.instances.either.applicative.applicative
 import com.danielecampogiani.androidfunctionalvalidation.Data
 import com.danielecampogiani.androidfunctionalvalidation.validMail
 import com.danielecampogiani.androidfunctionalvalidation.validNumber
