@@ -1,10 +1,10 @@
 package com.danielecampogiani.androidfunctionalvalidation.validatedNelValidationError
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import android.support.design.widget.TextInputLayout
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.textfield.TextInputLayout
+import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
 import arrow.data.Nel
 import com.danielecampogiani.androidfunctionalvalidation.Data
